@@ -14,6 +14,7 @@
   },
   "scripts": {
     "start": "yarn bs:watch",
+    "test": "jest",
     "bs:build": "bsb -make-world -clean-world",
     "bs:watch": "bsb -make-world -clean-world -w",
     "bs:setup": "bsb -make-world"
