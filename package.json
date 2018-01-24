@@ -1,14 +1,16 @@
 {
-  "name": "bs-package-boilerplate",
+  "name": "holidays-br",
   "version": "1.0.0",
-  "description": "Boilerplate for BuckleScript NPM package",
-  "main": "lib/js/re/index.js",
-  "repository": "git@github.com:Astrocoders/bs-package-boilerplate.git",
+  "description": "BR holidays",
+  "main": "lib/js/re/holidays.js",
+  "repository": "git@github.com:Astrocoders/holidays-br.git",
   "author": "Gabriel R. Abreu <grsabreu@gmail.com>",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "bs-platform": "^2.1.0"
+    "@glennsl/bs-jest": "^0.3.3",
+    "bs-platform": "^2.1.0",
+    "jest": "^22.1.4"
   },
   "scripts": {
     "start": "yarn bs:watch",
