@@ -1,5 +1,5 @@
 {
-  "name": "holidays-br",
+  "name": "@astrocoders/holidays-br",
   "version": "1.0.1",
   "description": "BR holidays",
   "main": "lib/js/re/Holiday.js",
