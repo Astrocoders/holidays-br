@@ -2,7 +2,7 @@
   "name": "holidays-br",
   "version": "1.0.0",
   "description": "BR holidays",
-  "main": "lib/js/re/holidays.js",
+  "main": "lib/js/re/Holiday.js",
   "repository": "git@github.com:Astrocoders/holidays-br.git",
   "author": "Gabriel R. Abreu <grsabreu@gmail.com>",
   "license": "MIT",

@@ -7,7 +7,14 @@ BR holidays
 ```
 yarn add @astrocoders/holidays-br
 ```
-If you'll use this only in this, skip the next step
+If you'll use this only in JS, skip the next step because you can just import now 
+
+```js
+import { isHoliday } from '@astrocoders/holidays-br'
+
+isHoliday(new Date())
+```
+
 ### BuckleScript
 Add to deps in bsconfig.json
 
