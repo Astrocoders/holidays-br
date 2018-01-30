@@ -4,7 +4,7 @@ test("should properly detect a holiday", () =>
   Expect.(
     expect(
       Holiday.isHoliday(
-        Js.Date.makeWithYMD(~year=2017., ~month=1., ~date=1., ())
+        Js.Date.makeWithYMD(~year=2017.0, ~month=10.0, ~date=15.0, ())
       )
     )
     |> toBe(true)
